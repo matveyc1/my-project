@@ -1,0 +1,154 @@
+html {
+    background: rgb(255, 255, 255);
+    scroll-behavior: smooth;
+}
+    body {
+    background: rgb(127, 255, 212);
+    line-height: 1.5;
+    margin: 0 auto;
+    /* margin-left: 13%; */
+    margin-top: 4%;
+    margin-bottom: 4%;
+    max-width: 1298px; 
+    padding: 2em 2em 4em;
+    overflow-y: scroll; 
+    }
+    h1{
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        font-size: 40px;
+    }   
+    h2{
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 3%;
+        font-size: 36px;
+    }   
+    h3{
+        font-family: 'Times New Roman', Times, serif;
+        text-align: left;
+        margin-left: 2%;
+        font-size: 30px;
+
+    }
+    h4{
+        font-family: 'Times New Roman', Times, serif;
+        text-align: left;
+        margin-left: 3%;
+        font-size: 28px;
+    }
+    p{
+        font-family: 'Times New Roman', Times, serif;
+        text-align: justify;
+        margin-left: 2%;
+        font-size: 25px;
+    }
+    ul{
+        font-family: 'Times New Roman', Times, serif;
+        text-align: justify;
+        margin-left: 3%;
+        font-size: 25px;
+    }
+    li{
+        font-family: 'Times New Roman', Times, serif;
+        text-align: justify;
+        margin-left: 3%;
+        font-size: 25px;
+    }
+    .video{
+        text-align: center;
+    }
+    .navleft{
+        position: fixed;
+        left: 2.5%;
+        top: 92%;
+    }
+    .navmid{
+        position: fixed;
+        left: 3.35%;
+        top: 2%;
+    }
+    .navright{
+        position: fixed;
+        left: 89%;
+        top: 92%;
+    }
+    #button{
+        border-top: 1px solid #454545;
+        background: #f5ebdc;
+        background: -webkit-gradient(linear, left top, left bottom, from(#f5eded), to(#f5ebdc));
+        background: -webkit-linear-gradient(top, #f5eded, #f5ebdc);
+        background: -moz-linear-gradient(top, #f5eded, #f5ebdc);
+        background: -ms-linear-gradient(top, #f5eded, #f5ebdc);
+        background: -o-linear-gradient(top, #f5eded, #f5ebdc);
+        padding: 5px 10px;
+        -webkit-border-radius: 14px;
+        -moz-border-radius: 14px;
+        border-radius: 14px;
+        -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+        -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+        box-shadow: rgba(0,0,0,1) 0 1px 0;
+        text-shadow: rgba(0,0,0,.4) 0 1px 0;
+        color: #000000;
+        font-size: 14px;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: none;
+        vertical-align: middle;
+        }
+     #button:hover{
+        border-top-color: #464646;
+        background: #f5f0e6;
+        color: #8f8f8f;
+        }
+     #button:active{
+        border-top-color: #474748;
+        background: rgb(245, 235, 215);
+        }
+    #button1{
+        border-top: 1px solid #454545;
+        background: #f5ebdc;
+        background: -webkit-gradient(linear, left top, left bottom, from(#f5eded), to(#f5ebdc));
+        background: -webkit-linear-gradient(top, #f5eded, #f5ebdc);
+        background: -moz-linear-gradient(top, #f5eded, #f5ebdc);
+        background: -ms-linear-gradient(top, #f5eded, #f5ebdc);
+        background: -o-linear-gradient(top, #f5eded, #f5ebdc);
+        padding: 5px 10px;
+        -webkit-border-radius: 14px;
+        -moz-border-radius: 14px;
+        border-radius: 14px;
+        -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+        -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+        box-shadow: rgba(0,0,0,1) 0 1px 0;
+        text-shadow: rgba(0,0,0,.4) 0 1px 0;
+        color: #000000;
+        font-size: 14px;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: none;
+        vertical-align: middle;
+        }
+    #button1:hover{
+        border-top-color: #464646;
+        background: #f5f0e6;
+        color: #8f8f8f;
+        }
+    #button1:active{
+        border-top-color: #474748;
+        background: rgb(245, 235, 215);
+        }
+    img.icons{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    #linkA{
+    padding-top: 150px;
+	margin-top: -150px;
+	-webkit-background-clip: content-box;
+	background-clip: content-box;
+    }
+    .pageup{
+        text-align: center;
+        position: relative;
+    }
